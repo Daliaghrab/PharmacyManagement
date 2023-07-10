@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9F3"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/textView3j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/nmr"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nmr"
+        android:text="Sign up for your account"
+        android:textColor="#5A5A5A"
+        app:layout_constraintStart_toStartOf="@+id/textView3j"
+        app:layout_constraintTop_toBottomOf="@+id/textView3j" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddressj"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:fontFamily="@font/nmr"
+        android:textColor="#2E2E2E"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8j" />
+
+    <EditText
+        android:id="@+id/editTextTextPasswordj"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:textColor="#2E2E2E"
+        android:paddingLeft="5dp"
+        android:fontFamily="@font/nmr"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddressj"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddressj"
+        app:layout_constraintTop_toBottomOf="@+id/textView9j" />
+
+    <TextView
+        android:id="@+id/textView5j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nmr"
+        android:textColor="@color/c1"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBoxj"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPasswordj"
+        app:layout_constraintTop_toTopOf="@+id/checkBoxj" />
+
+    <CheckBox
+        android:id="@+id/checkBoxj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-13dp"
+        android:fontFamily="@font/nmr"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPasswordj"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPasswordj" />
+
+    <ImageButton
+        android:id="@+id/button3j"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/nmr"
+        android:text="Login"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddressj"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddressj"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxj"/>
+
+    <TextView
+        android:id="@+id/textView7j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/nmr"
+        android:text="Already have an account?"
+        android:textColor="#5A5A5A"
+        app:layout_constraintStart_toStartOf="@+id/button5j"
+        app:layout_constraintTop_toBottomOf="@+id/button5j" />
+
+
+    <TextView
+        android:id="@+id/textView8j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/nmr"
+        android:text="Email"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddressj"
+        app:layout_constraintTop_toBottomOf="@+id/textView4j" />
+
+    <TextView
+        android:id="@+id/textView9j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/nmr"
+        android:text="Password"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddressj"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddressj" />
+
+    <ImageButton
+        android:id="@+id/button5j"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/nmr"
+        android:text="Login with Google"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddressj"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddressj"
+        app:layout_constraintTop_toBottomOf="@+id/button3j" />
+
+    <TextView
+        android:id="@+id/textView10j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        android:fontFamily="@font/nmr"
+        android:text="Remember me"
+
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBoxj"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxj"
+        app:layout_constraintTop_toTopOf="@+id/checkBoxj" />
+
+    <TextView
+        android:id="@+id/textView11j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/nmr"
+        android:text="Login"
+        android:textColor="@color/c1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7j"
+        app:layout_constraintStart_toEndOf="@+id/textView7j"
+        app:layout_constraintTop_toTopOf="@+id/textView7j" />
+
+    <TextView
+        android:id="@+id/textView12j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nmr"
+        android:text="Sign up"
+        android:textColor="#303030"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button3j"
+        app:layout_constraintEnd_toEndOf="@+id/button3j"
+        app:layout_constraintStart_toStartOf="@+id/button3j"
+        app:layout_constraintTop_toTopOf="@+id/button3j" />
+
+    <TextView
+        android:id="@+id/textView13j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nmr"
+        android:text="Sign up with Google"
+        android:textColor="#303030"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button5j"
+        app:layout_constraintEnd_toEndOf="@+id/button5j"
+        app:layout_constraintStart_toStartOf="@+id/button5j"
+        app:layout_constraintTop_toTopOf="@+id/button5j" />
+
+    <ImageView
+        android:id="@+id/imageViewj"
+        android:layout_width="24dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button5j"
+        app:layout_constraintEnd_toStartOf="@+id/textView13j"
+        app:layout_constraintTop_toTopOf="@+id/button5j"
+        app:srcCompat="@drawable/google" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

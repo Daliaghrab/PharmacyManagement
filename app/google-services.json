@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1094851116289",
+    "firebase_url": "https://pharmacymanagement-81e4a-default-rtdb.firebaseio.com",
+    "project_id": "pharmacymanagement-81e4a",
+    "storage_bucket": "pharmacymanagement-81e4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094851116289:android:88176d4bbbecbd8d836f00",
+        "android_client_info": {
+          "package_name": "com.example.pharmacymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094851116289-2nnvqtlpr64km56i5v7tvk2qenv2eeuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO8l5pvkz37GG4qWBAyaDhkM60lkqdj14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094851116289-2nnvqtlpr64km56i5v7tvk2qenv2eeuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

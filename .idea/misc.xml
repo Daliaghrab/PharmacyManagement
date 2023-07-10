@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/drawable/border.xml" value="0.3635" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/drawable/button.xml" value="0.3635" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/drawable/button2.xml" value="0.3635" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/drawable/customerbg.xml" value="0.3635" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/drawable/detailsbg.xml" value="0.3635" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/drawable/detailssubmitbg.xml" value="0.3635" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/drawable/gradient.xml" value="0.3635" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/drawable/selector.xml" value="0.26" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/drawable/selector2.xml" value="0.3635" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/layout/activity_cart.xml" value="0.43333333333333335" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/layout/activity_customer.xml" value="0.43333333333333335" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/layout/activity_details.xml" value="0.5" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/layout/activity_employee.xml" value="0.43333333333333335" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/layout/activity_incoming_order.xml" value="0.43333333333333335" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/layout/activity_login.xml" value="0.43333333333333335" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/layout/activity_main.xml" value="0.43333333333333335" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/layout/activity_order_history.xml" value="0.43333333333333335" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/layout/activity_productadd.xml" value="0.43333333333333335" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/menu/customer.xml" value="0.2546875" />
+        <entry key="..\:/Creations/NativeJava/PharmacyManagement/app/src/main/res/menu/employee.xml" value="0.43333333333333335" />
+        <entry key="..\:/PharmacyManagement/app/src/main/res/layout/activity_main.xml" value="0.43333333333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
